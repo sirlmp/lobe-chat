@@ -29,15 +29,15 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "next build",
-    "postbuild": "npm run build-sitemap && npm run build-migrate-db",
-    "build-migrate-db": "bun run db:migrate",
-    "build-sitemap": "tsx ./scripts/buildSitemapIndex/index.ts",
-    "build:analyze": "ANALYZE=true next build",
-    "build:docker": "DOCKER=true next build && npm run build-sitemap",
-    "db:generate": "drizzle-kit generate && npm run db:generate-client",
-    "db:generate-client": "tsx ./scripts/migrateClientDB/compile-migrations.ts",
-    "db:migrate": "MIGRATION_DB=1 tsx ./scripts/migrateServerDB/index.ts",
+  "build": "next build",
+  "postbuild": "npm run build-sitemap && npm run build-migrate-db",
+  "build-migrate-db": "tsx ./scripts/migrateServerDB/index.ts", // 直接使用 tsx
+  "build-sitemap": "tsx ./scripts/buildSitemapIndex/index.ts",
+  "build:analyze": "ANALYZE=true next build",
+  "build:docker": "DOCKER=true next build && npm run build-sitemap",
+  "db:generate": "drizzle-kit generate && npm run db:generate-client",
+  "db:generate-client": "tsx ./scripts/migrateClientDB/compile-migrations.ts",
+  "db:migrate": "MIGRATION_DB=1 tsx ./scripts/migrateServerDB/index.ts", // 原始的 db:migrate，现在和 build-migrate-db 一样
     "db:push": "drizzle-kit push",
     "db:push-test": "NODE_ENV=test drizzle-kit push",
     "db:studio": "drizzle-kit studio",
