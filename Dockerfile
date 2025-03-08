@@ -7,6 +7,7 @@ FROM node:${NODEJS_VERSION}-slim AS base
 ARG USE_CN_MIRROR
 
 ENV DEBIAN_FRONTEND="noninteractive"
+    NODE_OPTIONS="--max-old-space-size=8192"
 
 RUN \
     # If you want to build docker in China, build with --build-arg USE_CN_MIRROR=true
