@@ -2,6 +2,222 @@
 
 # Changelog
 
+### [Version 1.108.2](https://github.com/lobehub/lobe-chat/compare/v1.108.1...v1.108.2)
+
+<sup>Released on **2025-08-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Provider config checker uses outdated API key.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Provider config checker uses outdated API key, closes [#8666](https://github.com/lobehub/lobe-chat/issues/8666) ([3a3e73e](https://github.com/lobehub/lobe-chat/commit/3a3e73e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.108.1](https://github.com/lobehub/lobe-chat/compare/v1.108.0...v1.108.1)
+
+<sup>Released on **2025-08-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix remote avatar broken in desktop.
+
+#### 💄 Styles
+
+- **misc**: Update mask style.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix remote avatar broken in desktop, closes [#8673](https://github.com/lobehub/lobe-chat/issues/8673) ([7eae430](https://github.com/lobehub/lobe-chat/commit/7eae430))
+
+#### Styles
+
+- **misc**: Update mask style, closes [#8555](https://github.com/lobehub/lobe-chat/issues/8555) ([b4ac89d](https://github.com/lobehub/lobe-chat/commit/b4ac89d))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+## [Version 1.108.0](https://github.com/lobehub/lobe-chat/compare/v1.107.6...v1.108.0)
+
+<sup>Released on **2025-08-05**</sup>
+
+#### ✨ Features
+
+- **misc**: Support 302ai provider.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support 302ai provider, closes [#8362](https://github.com/lobehub/lobe-chat/issues/8362) ([e172055](https://github.com/lobehub/lobe-chat/commit/e172055))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.107.6](https://github.com/lobehub/lobe-chat/compare/v1.107.5...v1.107.6)
+
+<sup>Released on **2025-08-05**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Break line for Gemini Artifacts.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Break line for Gemini Artifacts, closes [#8627](https://github.com/lobehub/lobe-chat/issues/8627) ([65609dd](https://github.com/lobehub/lobe-chat/commit/65609dd))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.107.5](https://github.com/lobehub/lobe-chat/compare/v1.107.4...v1.107.5)
+
+<sup>Released on **2025-08-04**</sup>
+
+#### 💄 Styles
+
+- **misc**: Update models.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Styles
+
+- **misc**: Update models, closes [#8657](https://github.com/lobehub/lobe-chat/issues/8657) ([904ee13](https://github.com/lobehub/lobe-chat/commit/904ee13))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.107.4](https://github.com/lobehub/lobe-chat/compare/v1.107.3...v1.107.4)
+
+<sup>Released on **2025-08-04**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: When s3 files not exist , global files should delete.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: When s3 files not exist , global files should delete ([7c1ca41](https://github.com/lobehub/lobe-chat/commit/7c1ca41))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.107.3](https://github.com/lobehub/lobe-chat/compare/v1.107.2...v1.107.3)
+
+<sup>Released on **2025-08-03**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Aihubmix provider request headers.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Aihubmix provider request headers, closes [#8654](https://github.com/lobehub/lobe-chat/issues/8654) ([af07101](https://github.com/lobehub/lobe-chat/commit/af07101))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
+### [Version 1.107.2](https://github.com/lobehub/lobe-chat/compare/v1.107.1...v1.107.2)
+
+<sup>Released on **2025-08-02**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Move types to separate package.
+
+#### 🐛 Bug Fixes
+
+- **desktop**: Settings window can't exit when fullscreen.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Move types to separate package, closes [#8635](https://github.com/lobehub/lobe-chat/issues/8635) ([3cc4a54](https://github.com/lobehub/lobe-chat/commit/3cc4a54))
+
+#### What's fixed
+
+- **desktop**: Settings window can't exit when fullscreen, closes [#8633](https://github.com/lobehub/lobe-chat/issues/8633) ([954eb2c](https://github.com/lobehub/lobe-chat/commit/954eb2c))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ### [Version 1.107.1](https://github.com/lobehub/lobe-chat/compare/v1.107.0...v1.107.1)
 
 <sup>Released on **2025-08-01**</sup>

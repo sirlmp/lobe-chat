@@ -1,6 +1,63 @@
 [
   {
     "children": {
+      "fixes": ["Provider config checker uses outdated API key."]
+    },
+    "date": "2025-08-05",
+    "version": "1.108.2"
+  },
+  {
+    "children": {
+      "fixes": ["Fix remote avatar broken in desktop."],
+      "improvements": ["Update mask style."]
+    },
+    "date": "2025-08-05",
+    "version": "1.108.1"
+  },
+  {
+    "children": {
+      "features": ["Support 302ai provider."]
+    },
+    "date": "2025-08-05",
+    "version": "1.108.0"
+  },
+  {
+    "children": {
+      "fixes": ["Break line for Gemini Artifacts."]
+    },
+    "date": "2025-08-05",
+    "version": "1.107.6"
+  },
+  {
+    "children": {
+      "improvements": ["Update models."]
+    },
+    "date": "2025-08-04",
+    "version": "1.107.5"
+  },
+  {
+    "children": {
+      "fixes": ["When s3 files not exist , global files should delete."]
+    },
+    "date": "2025-08-04",
+    "version": "1.107.4"
+  },
+  {
+    "children": {
+      "fixes": ["Aihubmix provider request headers."]
+    },
+    "date": "2025-08-03",
+    "version": "1.107.3"
+  },
+  {
+    "children": {
+      "improvements": ["Move types to separate package."]
+    },
+    "date": "2025-08-02",
+    "version": "1.107.2"
+  },
+  {
+    "children": {
       "improvements": ["Update i18n."]
     },
     "date": "2025-08-01",
